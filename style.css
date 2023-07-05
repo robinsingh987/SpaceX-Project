@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100wh;
+    background-image: url(maxresdefault.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: transparent;
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    position:sticky;
+}
+
+.logo {
+    margin-left: 100px;
+    height: 40px;
+    width: 210px;
+    color: white;
+}
+
+.list {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 30px;
+}
+
+
+.list a {
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin: 10px;
+
+}
+
+.list a:hover {
+    text-decoration: underline;
+    transition: all;
+}
+
+.list i {
+    position: absolute;
+    right: 80px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.shop {
+    position: absolute;
+    right: 100px;
+}
+
+.shop:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin-top: 330px;
+    margin-left: 100px;
+}
+
+#right-area h1 {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+#right-area h4 {
+    color: white;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+#btn1 {
+    min-width: 130px;
+    color: #fff;
+    padding: 20px 50px 20px 50px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-block;
+    outline: none;
+    z-index: 0;
+    background: transparent;
+    overflow: hidden;
+    border: 2px solid #ffffff;
+    color: #fff;
+    position: relative;
+    top: 50px;
+}
+
+#btn1:hover {
+    color: #000000;
+}
+
+#btn1:hover:after {
+    height: 100%;
+}
+
+#btn1:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    height: 0;
+    width: 100%;
+    background: #ffffff;
+}
+
+#box2 {
+    height: 130vh;
+    width: 100wh;
+    background-image: url(psn\ satria.jpg);
+    background-size: cover;
+    position: relative;
+    top: 260px;
+}
+
+#box3 {
+    height: 150vh;
+    width: 100wh;
+    background-image: url(starship.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 200px;
+}
+
+#box2 h1 {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    position: relative;
+    top: 500px;
+    margin-left: 80px;
+}
+
+#box2 h4 {
+    color: white;
+    font-weight: 600;
+    font-family: sans-serif;
+    position: absolute;
+    top: 490px;
+    margin-left: 80px;
+}
+
+#box2 #btn1 {
+    margin-top: 500px;
+    margin-left: 80px;
+}
+
+#box3 h1 {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    position: relative;
+    top: 550px;
+    margin-left: 80px;
+}
+
+#box3 #btn1 {
+    margin-top: 550px;
+    margin-left: 80px;
+}
+
+footer {
+    height: 10vh;
+    width: 100wh;
+    margin-top: 200px;
+    background-color: #000000;
+    text-decoration: none;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+footer ul li {
+    color: #ffffff;
+    margin: 20px;
+    position: relative;
+    top: 10px;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: sans-serif;
+    list-style: none;
+    cursor: pointer;
+}
+ul li:hover{
+    text-decoration:underline;
+}
